@@ -1,0 +1,90 @@
+{
+ "design": {
+  "T": 3792,
+  "markets": 20,
+  "B": 999,
+  "seeds": {
+   "gauss": 20261108,
+   "t_P_tau": 20261112,
+   "t_R_hat": 20261113
+  },
+  "pipeline": "rank -> normal scores -> Pearson R -> local omega under N(0,R) -> share(<0) (= C5)"
+ },
+ "empirical_share": 0.09863,
+ "correlation_inputs": {
+  "mean_offdiag_R_hat": 0.4748,
+  "mean_offdiag_P_tau": 0.4611,
+  "mean_abs_diff_P_tau_vs_R_hat": 0.0143,
+  "max_abs_diff_P_tau_vs_R_hat": 0.0335
+ },
+ "nu_fit_P_tau": {
+  "nu": 4.889,
+  "profile_95": [
+   4.732,
+   5.056
+  ],
+  "loglik": 37402.69,
+  "loglik_gauss_same_P": 33447.76,
+  "LR_vs_gauss": 7909.9
+ },
+ "nu_fit_R_hat": {
+  "nu": 4.935,
+  "profile_95": [
+   4.775,
+   5.106
+  ],
+  "loglik": 37398.51,
+  "loglik_gauss_same_P": 33492.78,
+  "LR_vs_gauss": 7811.5
+ },
+ "gaussian_reference": {
+  "mean": 0.04672,
+  "band_95": [
+   0.03954,
+   0.05406
+  ],
+  "min": 0.03481,
+  "max": 0.06039,
+  "sd": 0.00369,
+  "ratio_emp_over_mean": 2.111,
+  "n_ge_emp": 0,
+  "p_mc": 0.001
+ },
+ "t_reference_P_tau": {
+  "mean": 0.09947,
+  "band_95": [
+   0.09204,
+   0.10759
+  ],
+  "min": 0.08729,
+  "max": 0.11208,
+  "sd": 0.00398,
+  "ratio_emp_over_mean": 0.992,
+  "n_ge_emp": 586,
+  "p_mc": 0.587
+ },
+ "t_reference_R_hat_sensitivity": {
+  "mean": 0.0988,
+  "band_95": [
+   0.09097,
+   0.10682
+  ],
+  "min": 0.08782,
+  "max": 0.11261,
+  "sd": 0.00405,
+  "ratio_emp_over_mean": 0.998,
+  "n_ge_emp": 527,
+  "p_mc": 0.528
+ },
+ "re_estimated_R_vs_R_hat_mean_abs_diff": {
+  "gauss": 0.0096,
+  "t_P_tau": 0.021,
+  "t_R_hat": 0.0125
+ },
+ "t_vs_gauss": {
+  "diff_means_pp": 5.275,
+  "ks_stat": 1.0,
+  "ks_p": 0.0,
+  "share_t_draws_above_gauss_p97.5": 1.0
+ }
+}

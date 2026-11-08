@@ -1,0 +1,28 @@
+Loaded returns panel: 3792 obs x 20 markets
+Marginal entropy check OK: H(X_i) = 1.418939 nats for all 20 markets
+
+Triple 1: ['AEX', 'CAC40', 'DAX']
+  T=1.801610  D=1.113536  Omega=0.688074
+  permutations tested: 6, max |Omega diff|=0.000e+00, permutation invariant: True
+
+Triple 2: ['SP500', 'TSX60', 'IPC']
+  T=0.657826  D=0.485028  Omega=0.172798
+  permutations tested: 6, max |Omega diff|=1.332e-15, permutation invariant: True
+
+Triple 3: ['HangSeng', 'CSI300', 'TWSE']
+  T=0.373907  D=0.322675  Omega=0.051232
+  permutations tested: 6, max |Omega diff|=4.441e-16, permutation invariant: True
+
+Quadruple 1: ['AEX', 'CAC40', 'DAX', 'FTSE100']
+  T=2.532123  D=1.214379  Omega=1.317743
+  permutations tested: 24, max |Omega diff|=3.553e-15, permutation invariant: True
+
+Quadruple 2: ['SP500', 'TSX60', 'IPC', 'ASX200']
+  T=0.712460  D=0.501260  Omega=0.211201
+  permutations tested: 24, max |Omega diff|=2.665e-15, permutation invariant: True
+
+Quadruple 3: ['HangSeng', 'CSI300', 'TWSE', 'KOSPI200']
+  T=0.749941  D=0.526848  Omega=0.223093
+  permutations tested: 24, max |Omega diff|=0.000e+00, permutation invariant: True
+
+Validation report written: D:\oinformation-equity-markets\raw_audit\entropy_estimator_validation.md

@@ -1,0 +1,47 @@
+{
+ "EU": {
+  "n_markets": 9,
+  "mean_rho": 0.78,
+  "sd_rho": 0.077,
+  "empirical": 0.1031,
+  "ref_mean": 0.057,
+  "ref_95": [
+   0.0488,
+   0.0659
+  ],
+  "ratio": 1.809,
+  "excess_pp": 4.61,
+  "above_band": true,
+  "share_ref_ge_emp": 0.0
+ },
+ "AS": {
+  "n_markets": 7,
+  "mean_rho": 0.451,
+  "sd_rho": 0.125,
+  "empirical": 0.2919,
+  "ref_mean": 0.2959,
+  "ref_95": [
+   0.2814,
+   0.3104
+  ],
+  "ratio": 0.986,
+  "excess_pp": -0.4,
+  "above_band": false,
+  "share_ref_ge_emp": 0.7127
+ },
+ "AM": {
+  "n_markets": 3,
+  "mean_rho": 0.642,
+  "sd_rho": 0.072,
+  "empirical": 0.2785,
+  "ref_mean": 0.2767,
+  "ref_95": [
+   0.2637,
+   0.289
+  ],
+  "ratio": 1.006,
+  "excess_pp": 0.18,
+  "above_band": false,
+  "share_ref_ge_emp": 0.3954
+ }
+}

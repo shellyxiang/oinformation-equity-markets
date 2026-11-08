@@ -1,0 +1,5 @@
+variant,share_neg_EU,share_neg_AS,share_neg_AM,corr_omega_EU_AS,corr_omega_EU_AM,corr_omega_AS_AM,corr_negind_EU_AS,corr_negind_EU_AM,corr_negind_AS_AM,share_all3_neg
+A_baseline,0.1031,0.2919,0.2785,0.3434,0.3995,0.2436,0.0856,0.0969,0.0708,0.0203
+B_Asia_t+1,0.1031,0.2917,0.2788,0.0614,0.3995,0.1091,0.0228,0.0967,0.0435,0.0137
+C_Americas_t-1,0.1034,0.2917,0.2788,0.3434,0.0413,0.1091,0.0851,-0.016,0.0435,0.0127
+D_2day_nonoverlap,0.1187,0.2864,0.2679,0.409,0.4299,0.3397,0.1103,0.1352,0.0672,0.0227

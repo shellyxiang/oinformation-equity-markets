@@ -1,0 +1,107 @@
+VIX_low {"T": 1264, "mean_rho_Rs": 0.361, "mean_var_fullsample_z": 0.591, "ref_mean": 0.103, "ref_95": [0.0854, 0.1218], "observed": {"A_existing": {"share": 0.0601, "ratio": 0.584, "n_ref_ge_obs": 999}, "B_state_R": {"share": 0.0293, "ratio": 0.284, "n_ref_ge_obs": 999}, "C_within_state": {"share": 0.1392, "ratio": 1.351, "n_ref_ge_obs": 1}}}
+VIX_mid {"T": 1263, "mean_rho_Rs": 0.451, "mean_var_fullsample_z": 0.835, "ref_mean": 0.064, "ref_95": [0.0507, 0.0792], "observed": {"A_existing": {"share": 0.0879, "ratio": 1.374, "n_ref_ge_obs": 1}, "B_state_R": {"share": 0.0744, "ratio": 1.163, "n_ref_ge_obs": 98}, "C_within_state": {"share": 0.1029, "ratio": 1.609, "n_ref_ge_obs": 0}}}
+VIX_high {"T": 1265, "mean_rho_Rs": 0.532, "mean_var_fullsample_z": 1.557, "ref_mean": 0.0229, "ref_95": [0.0142, 0.0324], "observed": {"A_existing": {"share": 0.1478, "ratio": 6.46, "n_ref_ge_obs": 0}, "B_state_R": {"share": 0.1913, "ratio": 8.36, "n_ref_ge_obs": 0}, "C_within_state": {"share": 0.0719, "ratio": 3.144, "n_ref_ge_obs": 0}}}
+{
+ "vix_terciles": [
+  14.4,
+  19.98
+ ],
+ "B": 999,
+ "reference_matrix": "Rc",
+ "VIX_low": {
+  "T": 1264,
+  "mean_rho_Rs": 0.361,
+  "mean_var_fullsample_z": 0.591,
+  "ref_mean": 0.103,
+  "ref_95": [
+   0.0854,
+   0.1218
+  ],
+  "observed": {
+   "A_existing": {
+    "share": 0.0601,
+    "ratio": 0.584,
+    "n_ref_ge_obs": 999
+   },
+   "B_state_R": {
+    "share": 0.0293,
+    "ratio": 0.284,
+    "n_ref_ge_obs": 999
+   },
+   "C_within_state": {
+    "share": 0.1392,
+    "ratio": 1.351,
+    "n_ref_ge_obs": 1
+   }
+  }
+ },
+ "VIX_mid": {
+  "T": 1263,
+  "mean_rho_Rs": 0.451,
+  "mean_var_fullsample_z": 0.835,
+  "ref_mean": 0.064,
+  "ref_95": [
+   0.0507,
+   0.0792
+  ],
+  "observed": {
+   "A_existing": {
+    "share": 0.0879,
+    "ratio": 1.374,
+    "n_ref_ge_obs": 1
+   },
+   "B_state_R": {
+    "share": 0.0744,
+    "ratio": 1.163,
+    "n_ref_ge_obs": 98
+   },
+   "C_within_state": {
+    "share": 0.1029,
+    "ratio": 1.609,
+    "n_ref_ge_obs": 0
+   }
+  }
+ },
+ "VIX_high": {
+  "T": 1265,
+  "mean_rho_Rs": 0.532,
+  "mean_var_fullsample_z": 1.557,
+  "ref_mean": 0.0229,
+  "ref_95": [
+   0.0142,
+   0.0324
+  ],
+  "observed": {
+   "A_existing": {
+    "share": 0.1478,
+    "ratio": 6.46,
+    "n_ref_ge_obs": 0
+   },
+   "B_state_R": {
+    "share": 0.1913,
+    "ratio": 8.36,
+    "n_ref_ge_obs": 0
+   },
+   "C_within_state": {
+    "share": 0.0719,
+    "ratio": 3.144,
+    "n_ref_ge_obs": 0
+   }
+  }
+ },
+ "high_minus_low_A_existing": {
+  "observed_pp": 8.77,
+  "reference_pp": -8.01,
+  "excess_over_ref_pp": 16.78
+ },
+ "high_minus_low_B_state_R": {
+  "observed_pp": 16.2,
+  "reference_pp": -8.01,
+  "excess_over_ref_pp": 24.21
+ },
+ "high_minus_low_C_within_state": {
+  "observed_pp": -6.73,
+  "reference_pp": -8.01,
+  "excess_over_ref_pp": 1.28
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "Omega20": 6.2319,
+ "all_positive": true,
+ "range": [
+  0.0664,
+  1.0512
+ ],
+ "vs_avg_corr": {
+  "spearman": 0.967,
+  "pearson": 0.901
+ },
+ "vs_abs_PC1": {
+  "spearman": 0.949,
+  "pearson": 0.899
+ },
+ "H1_vs_H2": {
+  "spearman": 0.922,
+  "pearson": 0.971
+ },
+ "daily_vs_weekly": {
+  "spearman": 0.955,
+  "pearson": 0.97
+ },
+ "max_rank_shift_H1_H2": 5,
+ "max_rank_shift_daily_weekly": 4,
+ "sign_positive_H1_H2_W": [
+  20,
+  20,
+  20
+ ],
+ "n_weekly": 1044
+}

@@ -1,0 +1,12 @@
+# Third-party data (not redistributable)
+data_raw/*
+!data_raw/.gitkeep
+data_external/*
+!data_external/.gitkeep
+processed/*
+!processed/.gitkeep
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store

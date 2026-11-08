@@ -1,0 +1,54 @@
+{
+ "A_baseline": {
+  "T": 3792,
+  "mean_rho": 0.475,
+  "empirical": 0.0986,
+  "ref_mean": 0.0467,
+  "ref_95": [
+   0.0395,
+   0.0541
+  ],
+  "ratio": 2.111,
+  "above_band": true,
+  "share_ref_ge_emp": 0.0
+ },
+ "B_Asia_t+1": {
+  "T": 3791,
+  "mean_rho": 0.402,
+  "empirical": 0.0984,
+  "ref_mean": 0.0467,
+  "ref_95": [
+   0.0396,
+   0.0543
+  ],
+  "ratio": 2.106,
+  "above_band": true,
+  "share_ref_ge_emp": 0.0
+ },
+ "C_Americas_t-1": {
+  "T": 3791,
+  "mean_rho": 0.407,
+  "empirical": 0.0899,
+  "ref_mean": 0.0449,
+  "ref_95": [
+   0.0382,
+   0.0522
+  ],
+  "ratio": 2.002,
+  "above_band": true,
+  "share_ref_ge_emp": 0.0
+ },
+ "D_2day_nonoverlap": {
+  "T": 1896,
+  "mean_rho": 0.536,
+  "empirical": 0.1013,
+  "ref_mean": 0.0475,
+  "ref_95": [
+   0.0374,
+   0.058
+  ],
+  "ratio": 2.134,
+  "above_band": true,
+  "share_ref_ge_emp": 0.0
+ }
+}

@@ -1,0 +1,369 @@
+{
+ "design": {
+  "B": 999,
+  "vix_terciles": [
+   14.4,
+   19.98
+  ]
+ },
+ "EU": {
+  "n_obs": 3792,
+  "dim": 9,
+  "empirical_share": 0.10311,
+  "mean_offdiag_R_obs": 0.7805,
+  "mean_offdiag_P_tau": 0.7751,
+  "nu_fit_P_tau": {
+   "nu": 4.36,
+   "profile_95": [
+    4.145,
+    4.593
+   ],
+   "loglik": 23668.66,
+   "loglik_gauss_same_P": 21912.84,
+   "LR_vs_gauss": 3511.6
+  },
+  "nu_fit_R_obs": {
+   "nu": 4.426,
+   "profile_95": [
+    4.206,
+    4.666
+   ],
+   "loglik": 23664.12,
+   "loglik_gauss_same_P": 21927.19,
+   "LR_vs_gauss": 3473.9
+  },
+  "gaussian_reference": {
+   "mean": 0.05699,
+   "band_95": [
+    0.04879,
+    0.06593
+   ],
+   "ratio_emp_over_mean": 1.809,
+   "n_ge_emp": 0,
+   "p_mc": 0.001,
+   "R_mismatch_mean_abs": 0.005
+  },
+  "t_reference_P_tau": {
+   "mean": 0.10262,
+   "band_95": [
+    0.09492,
+    0.11076
+   ],
+   "ratio_emp_over_mean": 1.005,
+   "n_ge_emp": 459,
+   "p_mc": 0.46,
+   "R_mismatch_mean_abs": 0.0129
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.102,
+   "band_95": [
+    0.09441,
+    0.10998
+   ],
+   "ratio_emp_over_mean": 1.011,
+   "n_ge_emp": 412,
+   "p_mc": 0.413,
+   "R_mismatch_mean_abs": 0.0084
+  }
+ },
+ "AS": {
+  "n_obs": 3792,
+  "dim": 7,
+  "empirical_share": 0.29193,
+  "mean_offdiag_R_obs": 0.4507,
+  "mean_offdiag_P_tau": 0.443,
+  "nu_fit_P_tau": {
+   "nu": 5.077,
+   "profile_95": [
+    4.781,
+    5.409
+   ],
+   "loglik": 6176.31,
+   "loglik_gauss_same_P": 5330.41,
+   "LR_vs_gauss": 1691.8
+  },
+  "nu_fit_R_obs": {
+   "nu": 5.141,
+   "profile_95": [
+    4.838,
+    5.481
+   ],
+   "loglik": 6176.85,
+   "loglik_gauss_same_P": 5336.71,
+   "LR_vs_gauss": 1680.3
+  },
+  "gaussian_reference": {
+   "mean": 0.29594,
+   "band_95": [
+    0.28138,
+    0.3104
+   ],
+   "ratio_emp_over_mean": 0.986,
+   "n_ge_emp": 712,
+   "p_mc": 0.713,
+   "R_mismatch_mean_abs": 0.0102
+  },
+  "t_reference_P_tau": {
+   "mean": 0.27249,
+   "band_95": [
+    0.26002,
+    0.28509
+   ],
+   "ratio_emp_over_mean": 1.071,
+   "n_ge_emp": 4,
+   "p_mc": 0.005,
+   "R_mismatch_mean_abs": 0.0185
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.26831,
+   "band_95": [
+    0.25501,
+    0.28138
+   ],
+   "ratio_emp_over_mean": 1.088,
+   "n_ge_emp": 0,
+   "p_mc": 0.001,
+   "R_mismatch_mean_abs": 0.013
+  }
+ },
+ "AM": {
+  "n_obs": 3792,
+  "dim": 3,
+  "empirical_share": 0.27848,
+  "mean_offdiag_R_obs": 0.6417,
+  "mean_offdiag_P_tau": 0.6295,
+  "nu_fit_P_tau": {
+   "nu": 3.629,
+   "profile_95": [
+    3.304,
+    4.017
+   ],
+   "loglik": 2803.38,
+   "loglik_gauss_same_P": 2491.94,
+   "LR_vs_gauss": 622.9
+  },
+  "nu_fit_R_obs": {
+   "nu": 3.752,
+   "profile_95": [
+    3.409,
+    4.163
+   ],
+   "loglik": 2801.75,
+   "loglik_gauss_same_P": 2494.5,
+   "LR_vs_gauss": 614.5
+  },
+  "gaussian_reference": {
+   "mean": 0.27669,
+   "band_95": [
+    0.26371,
+    0.28904
+   ],
+   "ratio_emp_over_mean": 1.006,
+   "n_ge_emp": 395,
+   "p_mc": 0.396,
+   "R_mismatch_mean_abs": 0.0075
+  },
+  "t_reference_P_tau": {
+   "mean": 0.2574,
+   "band_95": [
+    0.24419,
+    0.27004
+   ],
+   "ratio_emp_over_mean": 1.082,
+   "n_ge_emp": 2,
+   "p_mc": 0.003,
+   "R_mismatch_mean_abs": 0.0229
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.25199,
+   "band_95": [
+    0.23892,
+    0.26399
+   ],
+   "ratio_emp_over_mean": 1.105,
+   "n_ge_emp": 0,
+   "p_mc": 0.001,
+   "R_mismatch_mean_abs": 0.0125
+  }
+ },
+ "VIX_low": {
+  "n_obs": 1264,
+  "dim": 20,
+  "empirical_share": 0.13924,
+  "mean_offdiag_R_obs": 0.3615,
+  "mean_offdiag_P_tau": 0.3585,
+  "nu_fit_P_tau": {
+   "nu": 10.16,
+   "profile_95": [
+    9.282,
+    11.188
+   ],
+   "loglik": 8263.27,
+   "loglik_gauss_same_P": 7712.13,
+   "LR_vs_gauss": 1102.3
+  },
+  "nu_fit_R_obs": {
+   "nu": 10.035,
+   "profile_95": [
+    9.172,
+    11.048
+   ],
+   "loglik": 8273.89,
+   "loglik_gauss_same_P": 7735.14,
+   "LR_vs_gauss": 1077.5
+  },
+  "gaussian_reference": {
+   "mean": 0.10304,
+   "band_95": [
+    0.08544,
+    0.12184
+   ],
+   "ratio_emp_over_mean": 1.351,
+   "n_ge_emp": 1,
+   "p_mc": 0.002,
+   "R_mismatch_mean_abs": 0.0188
+  },
+  "t_reference_P_tau": {
+   "mean": 0.12332,
+   "band_95": [
+    0.10759,
+    0.13924
+   ],
+   "ratio_emp_over_mean": 1.129,
+   "n_ge_emp": 29,
+   "p_mc": 0.03,
+   "R_mismatch_mean_abs": 0.023
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.12588,
+   "band_95": [
+    0.10993,
+    0.14324
+   ],
+   "ratio_emp_over_mean": 1.106,
+   "n_ge_emp": 69,
+   "p_mc": 0.07,
+   "R_mismatch_mean_abs": 0.0207
+  }
+ },
+ "VIX_mid": {
+  "n_obs": 1263,
+  "dim": 20,
+  "empirical_share": 0.10293,
+  "mean_offdiag_R_obs": 0.4535,
+  "mean_offdiag_P_tau": 0.4504,
+  "nu_fit_P_tau": {
+   "nu": 8.682,
+   "profile_95": [
+    8.015,
+    9.449
+   ],
+   "loglik": 11016.19,
+   "loglik_gauss_same_P": 10280.43,
+   "LR_vs_gauss": 1471.5
+  },
+  "nu_fit_R_obs": {
+   "nu": 8.607,
+   "profile_95": [
+    7.947,
+    9.366
+   ],
+   "loglik": 11027.49,
+   "loglik_gauss_same_P": 10308.41,
+   "LR_vs_gauss": 1438.2
+  },
+  "gaussian_reference": {
+   "mean": 0.06398,
+   "band_95": [
+    0.05067,
+    0.07918
+   ],
+   "ratio_emp_over_mean": 1.609,
+   "n_ge_emp": 0,
+   "p_mc": 0.001,
+   "R_mismatch_mean_abs": 0.0169
+  },
+  "t_reference_P_tau": {
+   "mean": 0.0998,
+   "band_95": [
+    0.08547,
+    0.1156
+   ],
+   "ratio_emp_over_mean": 1.031,
+   "n_ge_emp": 354,
+   "p_mc": 0.355,
+   "R_mismatch_mean_abs": 0.0213
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.10109,
+   "band_95": [
+    0.08705,
+    0.11639
+   ],
+   "ratio_emp_over_mean": 1.018,
+   "n_ge_emp": 414,
+   "p_mc": 0.415,
+   "R_mismatch_mean_abs": 0.0194
+  }
+ },
+ "VIX_high": {
+  "n_obs": 1265,
+  "dim": 20,
+  "empirical_share": 0.07194,
+  "mean_offdiag_R_obs": 0.5425,
+  "mean_offdiag_P_tau": 0.5347,
+  "nu_fit_P_tau": {
+   "nu": 5.205,
+   "profile_95": [
+    4.907,
+    5.537
+   ],
+   "loglik": 15661.41,
+   "loglik_gauss_same_P": 14169.06,
+   "LR_vs_gauss": 2984.7
+  },
+  "nu_fit_R_obs": {
+   "nu": 5.097,
+   "profile_95": [
+    4.81,
+    5.416
+   ],
+   "loglik": 15664.44,
+   "loglik_gauss_same_P": 14224.89,
+   "LR_vs_gauss": 2879.1
+  },
+  "gaussian_reference": {
+   "mean": 0.02288,
+   "band_95": [
+    0.01423,
+    0.03241
+   ],
+   "ratio_emp_over_mean": 3.144,
+   "n_ge_emp": 0,
+   "p_mc": 0.001,
+   "R_mismatch_mean_abs": 0.0151
+  },
+  "t_reference_P_tau": {
+   "mean": 0.07397,
+   "band_95": [
+    0.06245,
+    0.08538
+   ],
+   "ratio_emp_over_mean": 0.973,
+   "n_ge_emp": 662,
+   "p_mc": 0.663,
+   "R_mismatch_mean_abs": 0.0229
+  },
+  "t_reference_R_obs_sensitivity": {
+   "mean": 0.07695,
+   "band_95": [
+    0.06482,
+    0.08937
+   ],
+   "ratio_emp_over_mean": 0.935,
+   "n_ge_emp": 817,
+   "p_mc": 0.818,
+   "R_mismatch_mean_abs": 0.0189
+  }
+ }
+}
